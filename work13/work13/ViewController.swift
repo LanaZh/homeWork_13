@@ -75,7 +75,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
            return 40
     }
-    
     ///вывести в консоль
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("\(tableOne)")
