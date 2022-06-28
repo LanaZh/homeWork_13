@@ -2,7 +2,6 @@
 //  SceneDelegate.swift
 //  work13
 //
-//  Created by Надежда Жукова on 10.06.2022.
 //
 
 import UIKit

@@ -51,7 +51,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: indentifire, for: indexPath)
-       // let switchView = UISwitch()
         if indexPath.section == 1 && indexPath.row == 0 {
             cell.accessoryView = switchView
         } else {
@@ -72,13 +71,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return ViewController.names.count
-    }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        if indexPath.row == 0 && indexPath.section == 0 {
-           return 80
-        }
-        return 45
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

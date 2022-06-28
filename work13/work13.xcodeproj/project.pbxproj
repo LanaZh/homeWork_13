@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB6FD9E62865FF8600F85E66 /* InfoSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6FD9E52865FF8600F85E66 /* InfoSettingViewController.swift */; };
+		BB6FD9E62865FF8600F85E66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6FD9E52865FF8600F85E66 /* ViewController.swift */; };
 		BBF25FC22853943D00B1AC1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF25FC12853943D00B1AC1B /* AppDelegate.swift */; };
 		BBF25FC42853943D00B1AC1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF25FC32853943D00B1AC1B /* SceneDelegate.swift */; };
 		BBF25FC92853943D00B1AC1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF25FC72853943D00B1AC1B /* Main.storyboard */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BB6FD9E52865FF8600F85E66 /* InfoSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSettingViewController.swift; sourceTree = "<group>"; };
+		BB6FD9E52865FF8600F85E66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BBF25FBE2853943D00B1AC1B /* work13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = work13.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF25FC12853943D00B1AC1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBF25FC32853943D00B1AC1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		BBF25FC02853943D00B1AC1B /* work13 */ = {
 			isa = PBXGroup;
 			children = (
-				BB6FD9E52865FF8600F85E66 /* InfoSettingViewController.swift */,
+				BB6FD9E52865FF8600F85E66 /* ViewController.swift */,
 				BBF25FC12853943D00B1AC1B /* AppDelegate.swift */,
 				BBF25FC32853943D00B1AC1B /* SceneDelegate.swift */,
 				BBF25FC72853943D00B1AC1B /* Main.storyboard */,
@@ -143,7 +143,7 @@
 			files = (
 				BBF25FC22853943D00B1AC1B /* AppDelegate.swift in Sources */,
 				BBF25FC42853943D00B1AC1B /* SceneDelegate.swift in Sources */,
-				BB6FD9E62865FF8600F85E66 /* InfoSettingViewController.swift in Sources */,
+				BB6FD9E62865FF8600F85E66 /* ViewController.swift in Sources */,
 				BBF77B82286B878C002CB716 /* model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
